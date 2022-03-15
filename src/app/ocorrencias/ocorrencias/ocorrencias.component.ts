@@ -29,7 +29,9 @@ export class OcorrenciasComponent implements OnInit, OnDestroy {
   ) { }
 
   ngOnInit(): void {
-    this
+    this.listarRegioes();
+    this.listarOcorrencias();
+    this.listarFaixas();
   }
 
   ngOnDestroy(): void {
